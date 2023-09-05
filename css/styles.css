@@ -499,3 +499,6 @@ justify-content: center;
 
 }
 
+.backdrop-wrapper{
+  position: absolute;
+}
