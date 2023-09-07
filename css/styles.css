@@ -566,6 +566,10 @@ color:#ffffff;
 
 }
 
+.backdrop-svg{
+position: relative;
+}
+
 .backdrop-wrapper{
   position: absolute;
   top: 50%;
@@ -642,12 +646,13 @@ width: 24px;
   background-color: transparent;
   padding-left: 38px; 
   outline: transparent;
-   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus {
   border-color: #4D5AE5;
   fill: #4D5AE5;
+  
 }
 
 .input-svg {
@@ -679,7 +684,7 @@ width: 24px;
 }
 
 .t-user-comment:focus {
-  background-color: #4D5AE5;
+  border-color: #4D5AE5; 
 }
 
 .checkbox {
@@ -700,6 +705,12 @@ width: 24px;
 
 .checkbox-link {
   color:#4d5ae5;
+}
+
+.checkbox-real:checked + .checkbox-label > .checkbox-custom {
+  background-color: var(--ocean);
+  border: none;
+  fill: #F4F4FD;
 }
 
 .backdrop-button {
