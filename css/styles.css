@@ -515,7 +515,7 @@ justify-content: center;
   color:#ffffff;
 }
 
-.subscribe-form {
+.form {
   display: flex;
   gap 24px;
 }
