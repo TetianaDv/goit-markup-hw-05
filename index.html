@@ -409,7 +409,7 @@
             <!--Subscribe-->
             <div class="subscribe">
                 <p class="subscribe-text">Subscribe</p>
-                <form class="subscribe-form">
+                <form class="subscribe-form ">
                     <label class="subscribe-label">
                         <input class="subscribe-input" name="email" type="email" placeholder="E-mail">
                     </label>
@@ -486,14 +486,16 @@
                 <!--checkbox-->
                 <div class="checkbox">
                     <input id="user-privacy" type="checkbox" value="true" name="user-privacy" class="visually-hidden">
+                    <!--чому другим дочірнім лейбл?-->
 
-                    <span class="checkbox-span">
-                        <svg class="checkbox-svg" width="10" height="8">
-                            <use href="./images/icons.svg#icon-Checkbox"></use>
-                        </svg>
-                    </span>
 
-                    <label class="label-form" for="user-privacy">I accept the terms and conditions of the
+                    <label class="label-form" for="user-privacy">
+                        <span class="checkbox-span">
+                            <svg class="checkbox-svg" width="10" height="8">
+                                <use href="./images/icons.svg#icon-Checkbox"></use>
+                            </svg>
+                        </span>
+                        I accept the terms and conditions of the
                         <a class="checkbox-link" href="">Privacy Policy</a>
                     </label>
                 </div>
