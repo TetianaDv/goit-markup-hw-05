@@ -502,9 +502,6 @@ justify-content: center;
 
 }
 
-.subscribe {
- gap 24px;
-}
 
 .subscribe-text {
   margin-bottom: 16px;
@@ -517,12 +514,9 @@ justify-content: center;
 
 .form {
   display: flex;
-  gap 24px;
+  gap: 24px;
 }
 
-.subscribe-label {
-gap 24px;
-}
 
 .subscribe-input {
 width: 264px;
@@ -746,4 +740,8 @@ input:checked + label > span {
 background-color:#404bbf; ;
 border: none;
 fill: #F4F4FD;
+}
+
+input:focus + icon {
+fill: #4D5AE5;
 }
