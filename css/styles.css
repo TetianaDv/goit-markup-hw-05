@@ -499,7 +499,6 @@ justify-content: center;
 
 }
 
-.subscribe
 
 .subscribe-text {
   margin-bottom: 16px;
@@ -568,6 +567,12 @@ color:#ffffff;
 
 .backdrop-svg{
 position: relative;
+}
+
+.input-svg:hover,
+.input-svg:focus {
+  background-color: #404bbf;
+  border: none;
 }
 
 .backdrop-wrapper{
@@ -728,4 +733,10 @@ letter-spacing: 0.04em;
  border: none;
  border-radius: 4px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input:checked + label > span {
+background-color:#404bbf; ;
+border: none;
+fill: #F4F4FD;
 }
