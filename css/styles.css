@@ -742,6 +742,7 @@ border: none;
 fill: #F4F4FD;
 }
 
-input:focus + icon {
+input:focus + .input-svg {
 fill: #4D5AE5;
+background-color: #4D5AE5;
 }
