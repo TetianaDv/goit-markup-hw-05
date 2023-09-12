@@ -726,11 +726,6 @@ fill: #4D5AE5;
   margin-bottom: 24px;
 }
 
-
-.checkbox-svg {
-  fill: transparent;
-}
-
 .checkbox-input:checked 
 + .checkbox-label-form
 > .checkbox-span {
